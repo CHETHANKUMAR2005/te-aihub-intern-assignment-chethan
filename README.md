@@ -96,7 +96,7 @@ For each annotated image:
 
 1. Open the image in Label Studio.  
 2. Use the rectangle tool to draw a **tight bounding box** around each visible cell.  
-3. Choose the correct label (RBC, WBC, Platelets) from the right panel. [file:1][web:51]  
+3. Choose the correct label (RBC, WBC, Platelets) from the right panel.  
 
 Screenshots saved in `screenshots/`:
 
@@ -141,7 +141,7 @@ Optional bonus (if implemented):
 
 3. **Open Label Studio**
 
-   - Visit `http://localhost:8080` in your browser and log in. [web:48]
+   - Visit `http://localhost:8080` in your browser and log in.
 
 4. **Create a new project**
 
@@ -174,7 +174,7 @@ The video demonstrates:
 - The `BCCD Annotation Assignment` project in the UI.  
 - Configured labels (RBC, WBC, Platelets).  
 - An example annotated image.  
-- The location of the export file in this repository. [file:1]
+- The location of the export file in this repository.
 
 ---
 
@@ -184,10 +184,10 @@ The video demonstrates:
   - *Fix:* Ensured Docker Desktop was running, pulled the `heartexlabs/label-studio:latest` image again, and verified that port 8080 was free.
 
 - **Issue 2: Images not appearing in Label Studio tasks**  
-  - *Fix:* Confirmed that only `.jpg` files were imported, not `.xml` files, and refreshed the project after upload. [web:36][web:38]
+  - *Fix:* Confirmed that only `.jpg` files were imported, not `.xml` files, and refreshed the project after upload. 
 
 - **Issue 3: Confusion about label configuration**  
-  - *Fix:* Used the Label Studio documentation and assignment instructions to define exactly three `RectangleLabels`: RBC, WBC, Platelets. [file:1][web:48][web:49]
+  - *Fix:* Used the Label Studio documentation and assignment instructions to define exactly three `RectangleLabels`: RBC, WBC, Platelets.
 
 (You can edit these issues to match your real experience.)
 
@@ -197,25 +197,25 @@ The video demonstrates:
 
 During this assignment, I used AI tools for assistance:
 
-- **ChatGPT / Gemini / others** for:
+- ChatGPT / Gemini / Perplexity/claude_ai for:
   - Clarifying Docker run commands for Label Studio.  
   - Designing the `label_config.xml` for bounding boxes.  
   - Drafting and structuring this README in clear language.
 
-I reviewed all suggestions and ensured that I understand every command and configuration before including them in the final project. [file:1]
+I reviewed all suggestions and ensured that I understand every command and configuration before including them in the final project.
 
 ---
 
 ## 11. Annotation quality plan for 2,500 images
 
-If this project were scaled up to **2,500 images** annotated by business users, I would ensure quality using the following process: [file:1]
+If this project were scaled up to **2,500 images** annotated by business users, I would ensure quality using the following process:
 
 1. **Clear written guidelines**  
    - Provide a short document with visual examples of RBC, WBC, and Platelets, including tricky cases (overlapping cells, tiny platelets, partially visible cells at the image border).
 
 2. **Onboarding and practice set**  
    - Give new annotators a small practice batch (e.g., 20 images).  
-   - Review their annotations, give feedback, and only then let them work on the full dataset. [web:52]
+   - Review their annotations, give feedback, and only then let them work on the full dataset.
 
 3. **Double-annotation on a subset**  
    - Have some images labeled by two different annotators.  
