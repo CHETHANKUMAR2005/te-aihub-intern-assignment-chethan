@@ -4,7 +4,7 @@ Docker + Label Studio object detection annotation workflow using the BCCD blood 
 ---
 ## 1. Project overview
 
-This repository contains my solution for the **TE Connectivity AI Hub Intern Assignment**.  
+  
 The goal is to run **Label Studio** locally using Docker, create an **object detection** project for blood cell images, annotate cells with bounding boxes, and export the annotations in a reusable format for future model training. [file:1][web:76][web:79]
 
 In simple words: this project sets up a small local tool where humans draw boxes around red blood cells (RBC), white blood cells (WBC), and platelets in microscope images so that these examples can later be used to train an AI model. [file:1][web:48]
