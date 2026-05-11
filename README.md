@@ -129,7 +129,7 @@ Optional bonus (if implemented):
 1. **Clone the repository**
 
    ```bash
-   git clone <your_repo_clone_url>
+   git clone <https://github.com/CHETHANKUMAR2005/te-aihub-intern-assignment-chethan>
    cd te-aihub-intern-assignment-chethan
    ```
 
