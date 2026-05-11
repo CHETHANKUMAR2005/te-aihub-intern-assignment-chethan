@@ -1,4 +1,4 @@
-Check that export file exists and is not empty
+#Check that export file exists and is not empty
 
 # scripts/optional_helper_scripts.py
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     validate_export()
 
 
- script to list label counts
+ #script to list label counts
 
 # scripts/optional_helper_scripts.py
 
