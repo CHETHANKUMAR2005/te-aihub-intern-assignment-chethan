@@ -5,10 +5,9 @@ Docker + Label Studio object detection annotation workflow using the BCCD blood 
 ## 1. Project overview
 
   
-The goal is to run **Label Studio** locally using Docker, create an **object detection** project for blood cell images, annotate cells with bounding boxes, and export the annotations in a reusable format for future model training. [file:1][web:76][web:79]
+The goal is to run **Label Studio** locally using Docker, create an **object detection** project for blood cell images, annotate cells with bounding boxes, and export the annotations in a reusable format for future model training.
 
-In simple words: this project sets up a small local tool where humans draw boxes around red blood cells (RBC), white blood cells (WBC), and platelets in microscope images so that these examples can later be used to train an AI model. [file:1][web:48]
-
+In simple words: this project sets up a small local tool where humans draw boxes around red blood cells (RBC), white blood cells (WBC), and platelets in microscope images so that these examples can later be used to train an AI model. 
 ---
 
 ## 2. Dataset
@@ -16,8 +15,8 @@ In simple words: this project sets up a small local tool where humans draw boxes
 - **Dataset name:** BCCD – Blood Cell Count and Detection dataset  
 - **Dataset sources:**
   - Roboflow: https://public.roboflow.com/object-detection/bccd
-  - GitHub: https://github.com/Shenggan/BCCD_Dataset [file:1][web:36]
-- **Images used in this assignment:**
+  - GitHub: https://github.com/Shenggan/BCCD_Dataset 
+- Images used in this assignment:
   - I selected **10 images** from the BCCD dataset, for example:  
     `BloodImage_00400.jpg`, `BloodImage_00402-3.jpg`, `BloodImage_00403-5.jpg`, `BloodImage_00404-7.jpg`, `BloodImage_00405-9.jpg`, `BloodImage_00407-11.jpg`, `BloodImage_00408-13.jpg`, `BloodImage_00409-15.jpg`, `BloodImage_00410-17.jpg`, `<one more image name>`.
 - **Location in this repository:**
