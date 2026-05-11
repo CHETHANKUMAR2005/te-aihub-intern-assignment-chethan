@@ -22,7 +22,7 @@ In simple words: this project sets up a small local tool where humans draw boxes
 - **Location in this repository:**
   - `samples/selected_10_images/` – contains the 10 images used for labeling (or instructions to download them).
 
-The images show microscope views of human blood with multiple RBCs, WBCs, and platelets in each frame, which makes them suitable for bounding‑box object detection tasks. [web:38][web:44]
+The images show microscope views of human blood with multiple RBCs, WBCs, and platelets in each frame, which makes them suitable for bounding‑box object detection tasks.
 
 ---
 
@@ -38,7 +38,7 @@ docker run -it -p 8080:8080 -v ${PWD}/mydata:/label-studio/data heartexlabs/labe
 ```
 
 - `-p 8080:8080` exposes Label Studio at `http://localhost:8080`.  
-- `-v ${PWD}/mydata:/label-studio/data` stores all labels and projects in a local `mydata` folder so they persist even if the container stops. [web:70][web:71]
+- `-v ${PWD}/mydata:/label-studio/data` stores all labels and projects in a local `mydata` folder so they persist even if the container stops.
 
 You can adapt the volume path syntax if you are using CMD or Linux instead of PowerShell.
 
@@ -53,12 +53,12 @@ You can adapt the volume path syntax if you are using CMD or Linux instead of Po
 3. Sign up or log in to Label Studio. [web:48]  
 4. Click **Create Project** and set:
    - **Project name:** `BCCD Annotation Assignment`  
-   - Optional description: “Object detection annotations for RBC, WBC, Platelets using BCCD dataset.” [file:1]
+   - Optional description: “Object detection annotations for RBC, WBC, Platelets using BCCD dataset.”
 5. Import the 10 selected images from `samples/selected_10_images/`.
 
 ### 4.2 Label configuration (labeling interface)
 
-For this assignment, only **three classes** are required: `RBC`, `WBC`, and `Platelets`. [file:1]
+For this assignment, only **three classes** are required: `RBC`, `WBC`, and `Platelets`. 
 
 The labeling interface XML used in this project:
 
@@ -75,7 +75,7 @@ The labeling interface XML used in this project:
 
 - `Image` displays the current image.  
 - `RectangleLabels` allows drawing bounding boxes.  
-- Each `Label` corresponds to one blood cell type. [web:49][web:51]
+- Each `Label` corresponds to one blood cell type. 
 
 This configuration is saved in the repository as:
 
@@ -86,7 +86,7 @@ This configuration is saved in the repository as:
 ## 5. Annotation details
 
 - **Total images in project:** 10  
-- **Images annotated:** `<at least 5, for example: 7>` [file:1]  
+- **Images annotated:** `<at least 5, for example: 7>` 
 - **Labeling rules used:**
   - `RBC`: light pink, donut-shaped cells.  
   - `WBC`: larger purple cells with darker nucleus shapes.  
@@ -112,7 +112,7 @@ After finishing annotation:
 
 1. In Label Studio, open the project.  
 2. Go to **Export**.  
-3. Choose **Label Studio JSON** format and download the export. [file:1][web:52]
+3. Choose **Label Studio JSON** format and download the export. 
 
 The exported file is stored in:
 
@@ -120,7 +120,7 @@ The exported file is stored in:
 
 Optional bonus (if implemented):
 
-- `exports/coco_or_yolo_export_optional/` – converted annotations in COCO or YOLO format for use with common detection frameworks. [file:1][web:54]
+- `exports/coco_or_yolo_export_optional/` – converted annotations in COCO or YOLO format for use with common detection frameworks.
 
 ---
 
