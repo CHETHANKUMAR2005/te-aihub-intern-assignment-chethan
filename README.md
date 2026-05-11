@@ -1,12 +1,7 @@
 # te-aihub-intern-assignment-chethan
 Docker + Label Studio object detection annotation workflow using the BCCD blood cell dataset for RBC, WBC, and Platelets detection.
 
-# te-aihub-intern-assignment-chethan
-
-Docker + Label Studio object detection annotation workflow using the BCCD blood cell dataset for RBC, WBC, and Platelets detection.
-
 ---
-
 ## 1. Project overview
 
 This repository contains my solution for the **TE Connectivity AI Hub Intern Assignment**.  
