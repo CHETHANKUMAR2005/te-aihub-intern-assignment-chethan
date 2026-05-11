@@ -166,7 +166,7 @@ Optional bonus (if implemented):
 
 ## 8. Demo video
 
-- **Google Drive link:** `<paste your 3-minute video link here>`
+- **Google Drive link:** `<https://drive.google.com/file/d/1EZ1RyEa6t3fv_uvnbwNxUIa40H9azj3P/view?usp=sharing>`
 
 The video demonstrates:
 
